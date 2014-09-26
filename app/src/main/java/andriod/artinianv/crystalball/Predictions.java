@@ -23,6 +23,6 @@ public static Predictions get() {
    return predictions;
  }
             public String getPredictions() {
-                return answers[1];
+                return answers[3];
             }
 }
