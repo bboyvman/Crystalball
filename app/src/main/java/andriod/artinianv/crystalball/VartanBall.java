@@ -17,7 +17,7 @@ public class VartanBall extends Activity {
         setContentView(R.layout.activity_vartan_ball);
 
         answerText = (TextView) findViewById(R.id.answerText);
-        answerText.setText("Reply is hazy, try again tomorrow");
+        answerText.setText(Predictions.get().getPredictions());
     }
 
 }
