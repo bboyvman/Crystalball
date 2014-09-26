@@ -7,7 +7,11 @@ package andriod.artinianv.crystalball;
 
     private Predictions(){
         answers = new String[] {
-          "Your wishes will come true."
+          "Your wishes will come true.",
+          "Your wishes will NEVER come true.",
+          "I'm too lazy to answer.",
+          "Yea that could happen.",
+          "Nooooooooo NEVER."
         };
 
     }
@@ -19,6 +23,6 @@ public static Predictions get() {
    return predictions;
  }
             public String getPredictions() {
-                return answers[0];
+                return answers[1];
             }
 }
